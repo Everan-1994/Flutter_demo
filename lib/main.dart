@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() =>
-    runApp(MyApp(items: List<String>.generate(100, (i) => 'items $i')));
+void main() => runApp(MyApp(items: List<String>.generate(100, (i) => 'items $i')));
 
 class MyApp extends StatelessWidget {
   final List<String> items;
